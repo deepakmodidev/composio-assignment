@@ -51,6 +51,7 @@ Secret rules:
 ├── research_agent/
 │   ├── models.py
 │   ├── pipeline.py
+│   ├── sources.py
 │   ├── verify.py
 │   └── report.py
 ├── site/
@@ -63,6 +64,7 @@ Responsibilities:
 
 - `models.py`: Pydantic schemas and enums.
 - `pipeline.py`: Composio research, extraction, retry, checkpoint, and resume loop.
+- `sources.py`: official-domain policy, HTTP fetching, browser fallback, and passage checks.
 - `verify.py`: URL, source ownership, claim support, independent agent, and browser checks.
 - `report.py`: human-review sheet, accuracy, aggregate findings, and HTML generation.
 
@@ -209,8 +211,8 @@ If the required source is unavailable, output `unknown` or `none_found`. Do not 
 For each selected app:
 
 1. Load its assignment metadata and known official domain.
-2. Use Composio's session-backed MCP search capability to discover candidate official pages.
-3. Fetch each candidate page.
+2. Query Composio's session-backed MCP catalog for live toolkit/tool coverage for the app.
+3. Use OpenAI web search to discover candidate first-party pages, then fetch each candidate page.
 4. Use browser automation only when ordinary fetching cannot render the content.
 5. Extract the required fields as structured output.
 6. Attach a short fetched passage to every confident claim.
@@ -229,9 +231,10 @@ for app in selected_apps:
     failed_fields = required_fields
 
     for attempt in range(1, 4):
-        sources = discover_with_composio(app, failed_fields)
+        composio_coverage = inspect_composio_catalog(app)
+        sources = discover_official_sources(app, failed_fields)
         pages = fetch_official_sources(sources)
-        candidate = extract_structured_record(app, pages)
+        candidate = extract_structured_record(app, pages, composio_coverage)
         audit = verify_in_fresh_context(candidate, pages)
         save_attempt(app, candidate, audit)
 

@@ -1,0 +1,870 @@
+{
+  "reviewer_type": "ai_simulation_not_human",
+  "reviewed_at": "2026-08-19T04:05:00+00:00",
+  "scope": "70 rows: 10 apps × 7 fields; source values remain in artifacts/human_review.csv.",
+  "method": "Bounded local-evidence audit of artifacts/human_review.csv, v1.json, final.json, and verification.json. Used stored official supporting passages and recorded verification/browser outcomes; did not edit human review columns.",
+  "decision_policy": "correct = official stored passage supports the asserted value; incorrect = contradicted by available official evidence; unclear = independent browser verification was inaccessible or available evidence was insufficient. An unknown value is accepted only when non-assertion is actually warranted by the available official evidence.",
+  "rows": [
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://developers.hubspot.com/docs/api-reference/crm-contacts-v3/guide"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developers.hubspot.com/docs/api/webhooks"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developers.hubspot.com/docs/api/private-apps"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developers.hubspot.com/docs/api-reference/overview"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://developers.hubspot.com/docs/api-reference/crm-contacts-v3/guide"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://github.com/HubSpot/hubspot-cli/releases"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 2,
+      "app_name": "HubSpot",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://developers.hubspot.com/docs/api/private-apps"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://www.intercom.com/helpdesk"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developers.intercom.com/docs"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developers.intercom.com/docs"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://www.intercom.com/help/en/articles/308-get-started-building-on-intercom"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://www.intercom.com/help/en/articles/9071694-intercom-developer-faqs"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://github.com/intercom/intercom-mcp-server"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 12,
+      "app_name": "Intercom",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://developers.intercom.com/docs/references/introduction"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://www.twilio.com/docs/usage/api?swcfpc=1"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://www.twilio.com/docs/usage/requests-to-twilio"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://www.twilio.com/docs/usage/trials"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://www.twilio.com/docs/usage/api?swcfpc=1"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://www.twilio.com/docs/usage/api?swcfpc=1"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://github.com/twilio-labs/mcp"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 22,
+      "app_name": "Twilio",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://www.twilio.com/docs/usage/trials"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://developers.facebook.com/docs/marketing-apis"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developers.facebook.com/docs/facebook-login/guides/access-tokens"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://github.com/facebook/facebook-nodejs-business-sdk"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developers.facebook.com/docs/graph-api/overview"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://developers.facebook.com/docs/graph-api/overview"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://developers.facebook.com/docs/permissions/reference/ads_management"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://developers.facebook.com/docs/marketing-apis"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://developer.woocommerce.com/docs/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developer.woocommerce.com/docs/apis/rest-api/authentication/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://woocommerce.com/document/woocommerce-rest-api/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://developer.woocommerce.com/docs/apis/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://developer.woocommerce.com/docs/apis/rest-api/v3/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://developer.woocommerce.com/docs/features/mcp/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 42,
+      "app_name": "WooCommerce",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://developer.woocommerce.com/docs/apis/rest-api/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://seranking.com/api/how-to-get-api/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://seranking.com/api/data/getting-started/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://seranking.com/api-pricing.html"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://seranking.com/api/project/getting-started/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://seranking.com/api/how-to-get-api/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://seranking.com/api/integrations/mcp/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 52,
+      "app_name": "SE Ranking",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://seranking.com/api-pricing.html"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://vercel.com/docs/rest-api"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://vercel.com/kb/guide/how-do-i-use-a-vercel-api-access-token"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://vercel.com/kb/guide/how-do-i-use-a-vercel-api-access-token"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://vercel.com/docs/rest-api"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://vercel.com/docs/rest-api"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://vercel.com/docs/agent-resources/vercel-mcp"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://vercel.com/kb/guide/how-do-i-use-a-vercel-api-access-token"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://www.airtable.com/platform"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://support.airtable.com/docs/creating-personal-access-tokens"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated access path/status; verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://support.airtable.com/docs/creating-personal-access-tokens"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://github.com/Airtable/airtable.js"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://github.com/Airtable/airtable.js"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://support.airtable.com/docs/using-the-airtable-mcp-server"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation supports the stated setup path and any blocker; verification marked the claim supported.",
+      "urls_checked": [
+        "https://www.airtable.com/guides/customize/build-on-with-developer-resources"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "field": "description",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official passage directly supports the product/API description; verification records it as official and claim-supported.",
+      "urls_checked": [
+        "https://plaid.com/docs/link/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "field": "auth_methods",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation identifies the listed authentication method(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://plaid.com/docs/api/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "field": "credential_access",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "incorrect",
+      "reasoning": "V1 is supported by Plaid billing passages: Dashboard account + verified email starts a Trial, capped at 10 Production Items. Final's 'unknown — Official evidence was insufficient' contradicts that evidence.",
+      "urls_checked": [
+        "https://plaid.com/docs/account/billing/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review intentionally showed no final positive evidence"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "field": "api_styles",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official documentation names the listed API style(s); verification marked the supporting passage claim-supported.",
+      "urls_checked": [
+        "https://plaid.com/docs/api/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "field": "api_breadth",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official endpoint/category evidence supports this qualitative breadth classification; verification recorded claim support.",
+      "urls_checked": [
+        "https://plaid.com/docs/api/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "field": "mcp",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "correct",
+      "reasoning": "Stored official/vendor-controlled documentation or repository establishes the MCP status; verification marked the claim supported.",
+      "urls_checked": [
+        "https://plaid.com/docs/resources/mcp/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review supported or source was otherwise resolved"
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "field": "buildability",
+      "simulated_v1_result": "correct",
+      "simulated_final_result": "incorrect",
+      "reasoning": "V1 is supported by Plaid billing passages: more than 10 Production Items requires a paid upgrade. Final's unknown/no-blocker statement is contradicted by that explicit blocker.",
+      "urls_checked": [
+        "https://plaid.com/docs/account/billing/"
+      ],
+      "evidence_state": "stored official passage claim-supported; browser review intentionally showed no final positive evidence"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "field": "description",
+      "simulated_v1_result": "unclear",
+      "simulated_final_result": "unclear",
+      "reasoning": "The stored official passage supports this claim, but the independent browser review was Cloudflare-blocked (403/load_failed); a human-style reviewer cannot independently confirm it now.",
+      "urls_checked": [
+        "https://help.otter.ai/hc/en-us/articles/360049722894-Otter-Quick-Start-Guide"
+      ],
+      "evidence_state": "stored passage claim-supported; independent browser re-check load_failed (403)"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "field": "auth_methods",
+      "simulated_v1_result": "unclear",
+      "simulated_final_result": "unclear",
+      "reasoning": "The stored official passage supports this claim, but the independent browser review was Cloudflare-blocked (403/load_failed); a human-style reviewer cannot independently confirm it now.",
+      "urls_checked": [
+        "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API"
+      ],
+      "evidence_state": "stored passage claim-supported; independent browser re-check load_failed (403)"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "field": "credential_access",
+      "simulated_v1_result": "unclear",
+      "simulated_final_result": "unclear",
+      "reasoning": "The stored official passage supports this claim, but the independent browser review was Cloudflare-blocked (403/load_failed); a human-style reviewer cannot independently confirm it now.",
+      "urls_checked": [
+        "https://help.otter.ai/hc/en-us/articles/4412365535895-Does-Otter-offer-an-open-API"
+      ],
+      "evidence_state": "stored passage claim-supported; independent browser re-check load_failed (403)"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "field": "api_styles",
+      "simulated_v1_result": "unclear",
+      "simulated_final_result": "unclear",
+      "reasoning": "The stored official passage supports this claim, but the independent browser review was Cloudflare-blocked (403/load_failed); a human-style reviewer cannot independently confirm it now.",
+      "urls_checked": [
+        "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API"
+      ],
+      "evidence_state": "stored passage claim-supported; independent browser re-check load_failed (403)"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "field": "api_breadth",
+      "simulated_v1_result": "unclear",
+      "simulated_final_result": "unclear",
+      "reasoning": "The stored official passage supports this claim, but the independent browser review was Cloudflare-blocked (403/load_failed); a human-style reviewer cannot independently confirm it now.",
+      "urls_checked": [
+        "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API"
+      ],
+      "evidence_state": "stored passage claim-supported; independent browser re-check load_failed (403)"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "field": "mcp",
+      "simulated_v1_result": "unclear",
+      "simulated_final_result": "unclear",
+      "reasoning": "The stored official passage supports this claim, but the independent browser review was Cloudflare-blocked (403/load_failed); a human-style reviewer cannot independently confirm it now.",
+      "urls_checked": [
+        "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server"
+      ],
+      "evidence_state": "stored passage claim-supported; independent browser re-check load_failed (403)"
+    },
+    {
+      "app_id": 92,
+      "app_name": "Otter AI",
+      "field": "buildability",
+      "simulated_v1_result": "unclear",
+      "simulated_final_result": "unclear",
+      "reasoning": "The stored official passage supports this claim, but the independent browser review was Cloudflare-blocked (403/load_failed); a human-style reviewer cannot independently confirm it now.",
+      "urls_checked": [
+        "https://help.otter.ai/hc/en-us/articles/36130822688279-Otter-ai-Public-API"
+      ],
+      "evidence_state": "stored passage claim-supported; independent browser re-check load_failed (403)"
+    }
+  ],
+  "summary": {
+    "expected_rows": 70,
+    "actual_rows": 70,
+    "unique_app_field_pairs": 70,
+    "v1": {
+      "correct": 63,
+      "incorrect": 0,
+      "unclear": 7
+    },
+    "final": {
+      "correct": 61,
+      "incorrect": 2,
+      "unclear": 7
+    },
+    "key_disagreements": [
+      "Plaid credential_access: V1 supported; final incorrectly discards explicit Trial-plan evidence.",
+      "Plaid buildability: V1 supported; final incorrectly discards the explicit 10-Production-Item paid-upgrade blocker.",
+      "Otter AI: 7 fields are unclear in both versions because current browser verification was Cloudflare-blocked, despite stored official passages."
+    ]
+  }
+}
+

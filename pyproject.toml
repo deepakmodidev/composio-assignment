@@ -1,0 +1,25 @@
+[project]
+name = "composio-app-research"
+version = "0.1.0"
+description = "Evidence-first research agent for the Composio 100-app assignment"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.13,<5",
+  "composio>=0.17,<1",
+  "httpx>=0.28,<1",
+  "openai>=2.8,<3",
+  "playwright>=1.55,<2",
+  "pydantic>=2.11,<3",
+  "python-dotenv>=1.1,<2",
+  "tldextract>=5.3,<6",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.4,<10",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+

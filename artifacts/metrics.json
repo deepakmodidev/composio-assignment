@@ -1,0 +1,1020 @@
+{
+  "app_count": 100,
+  "evidence": {
+    "citation_count": 1077,
+    "citation_resolution_rate": 1.0,
+    "claim_support_rate": 0.9796,
+    "first_party_rate": 0.9833,
+    "source_types": {
+      "community_repository": 18,
+      "official_api_reference": 268,
+      "official_docs": 476,
+      "official_help": 123,
+      "official_product": 89,
+      "official_repository": 103
+    }
+  },
+  "unresolved": {
+    "field_count": 144,
+    "field_rate": 0.2057,
+    "low_confidence_field_count": 98
+  },
+  "distributions": {
+    "auth_methods": {
+      "api_key": 43,
+      "basic": 17,
+      "oauth2": 53,
+      "other": 16,
+      "token": 46,
+      "unknown": 6
+    },
+    "credential_access": {
+      "admin_gated": 13,
+      "free": 22,
+      "free_trial": 8,
+      "paid": 5,
+      "unknown": 52
+    },
+    "buildability": {
+      "conditional": 28,
+      "ready": 50,
+      "unknown": 22
+    },
+    "mcp": {
+      "community": 15,
+      "official": 70,
+      "unknown": 15
+    }
+  },
+  "categories": {
+    "AI, Research and Media-native": {
+      "total": 10,
+      "access": {
+        "admin_gated": 1,
+        "free": 3,
+        "paid": 2,
+        "unknown": 4
+      },
+      "buildability": {
+        "conditional": 4,
+        "ready": 5,
+        "unknown": 1
+      }
+    },
+    "CRM and Sales": {
+      "total": 10,
+      "access": {
+        "admin_gated": 2,
+        "free": 2,
+        "free_trial": 1,
+        "unknown": 5
+      },
+      "buildability": {
+        "conditional": 2,
+        "ready": 6,
+        "unknown": 2
+      }
+    },
+    "Communications and Messaging": {
+      "total": 10,
+      "access": {
+        "free": 2,
+        "free_trial": 2,
+        "unknown": 6
+      },
+      "buildability": {
+        "conditional": 1,
+        "ready": 8,
+        "unknown": 1
+      }
+    },
+    "Data, SEO and Scraping": {
+      "total": 10,
+      "access": {
+        "admin_gated": 1,
+        "free": 4,
+        "free_trial": 1,
+        "paid": 1,
+        "unknown": 3
+      },
+      "buildability": {
+        "conditional": 2,
+        "ready": 6,
+        "unknown": 2
+      }
+    },
+    "Developer, Infra and Data platforms": {
+      "total": 10,
+      "access": {
+        "free": 1,
+        "unknown": 9
+      },
+      "buildability": {
+        "conditional": 2,
+        "ready": 6,
+        "unknown": 2
+      }
+    },
+    "Ecommerce": {
+      "total": 10,
+      "access": {
+        "admin_gated": 3,
+        "free": 1,
+        "paid": 1,
+        "unknown": 5
+      },
+      "buildability": {
+        "conditional": 4,
+        "ready": 1,
+        "unknown": 5
+      }
+    },
+    "Finance and Fintech": {
+      "total": 10,
+      "access": {
+        "admin_gated": 2,
+        "free": 1,
+        "unknown": 7
+      },
+      "buildability": {
+        "conditional": 3,
+        "ready": 2,
+        "unknown": 5
+      }
+    },
+    "Marketing, Ads, Email and Social": {
+      "total": 10,
+      "access": {
+        "admin_gated": 1,
+        "free_trial": 1,
+        "unknown": 8
+      },
+      "buildability": {
+        "conditional": 4,
+        "ready": 4,
+        "unknown": 2
+      }
+    },
+    "Productivity and Project Management": {
+      "total": 10,
+      "access": {
+        "free": 6,
+        "paid": 1,
+        "unknown": 3
+      },
+      "buildability": {
+        "conditional": 1,
+        "ready": 7,
+        "unknown": 2
+      }
+    },
+    "Support and Helpdesk": {
+      "total": 10,
+      "access": {
+        "admin_gated": 3,
+        "free": 2,
+        "free_trial": 3,
+        "unknown": 2
+      },
+      "buildability": {
+        "conditional": 5,
+        "ready": 5
+      }
+    }
+  },
+  "headline": "50 of 100 apps receive a ready verdict; OAuth2 is the most documented auth method",
+  "blockers": {
+    "Credential access unresolved": 25,
+    "No documented blocker": 21,
+    "Insufficient official evidence": 21,
+    "Admin approval or setup": 15,
+    "Paid plan required": 9,
+    "Other documented constraint": 6,
+    "Credential access constraint": 1,
+    "Partner or sales approval": 1,
+    "Narrow API surface": 1
+  },
+  "easy_win_app_ids": [
+    1,
+    9,
+    11,
+    13,
+    16,
+    17,
+    22,
+    25,
+    27,
+    40,
+    42,
+    51,
+    52,
+    56,
+    57,
+    66,
+    71,
+    72,
+    75,
+    76,
+    78,
+    87,
+    94,
+    95,
+    99
+  ],
+  "outreach_candidate_app_ids": [
+    2,
+    10,
+    20,
+    36,
+    41,
+    44,
+    45,
+    53,
+    88,
+    92
+  ],
+  "corrections_between_v1_and_final": 32,
+  "correction_examples": [
+    {
+      "app_id": 3,
+      "app_name": "Pipedrive",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 18,
+      "app_name": "Help Scout",
+      "fields": [
+        "api_styles",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 29,
+      "app_name": "Aircall",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 38,
+      "app_name": "Pinterest",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "fields": [
+        "credential_access",
+        "api_styles",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 49,
+      "app_name": "Amazon Selling Partner",
+      "fields": [
+        "description",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 59,
+      "app_name": "Waterfall.io",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 65,
+      "app_name": "Supabase",
+      "fields": [
+        "api_breadth",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 76,
+      "app_name": "Monday.com",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 77,
+      "app_name": "ClickUp",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 78,
+      "app_name": "Coda",
+      "fields": [
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "fields": [
+        "description",
+        "auth_methods",
+        "api_styles",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "fields": [
+        "description"
+      ]
+    },
+    {
+      "app_id": 99,
+      "app_name": "YouTube Transcript",
+      "fields": [
+        "api_breadth"
+      ]
+    }
+  ],
+  "unresolved_cases": [
+    {
+      "app_id": 1,
+      "app_name": "Salesforce",
+      "fields": [
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 3,
+      "app_name": "Pipedrive",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 4,
+      "app_name": "Attio",
+      "fields": [
+        "api_breadth",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 5,
+      "app_name": "Twenty",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 6,
+      "app_name": "Podio",
+      "fields": [
+        "credential_access",
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 7,
+      "app_name": "Zoho CRM",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 8,
+      "app_name": "Close",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 9,
+      "app_name": "Copper",
+      "fields": [
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 14,
+      "app_name": "Front",
+      "fields": [
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 15,
+      "app_name": "Pylon",
+      "fields": [
+        "api_styles",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 16,
+      "app_name": "LiveAgent",
+      "fields": [
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 18,
+      "app_name": "Help Scout",
+      "fields": [
+        "credential_access",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 19,
+      "app_name": "Gorgias",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 20,
+      "app_name": "Gladly",
+      "fields": [
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 21,
+      "app_name": "Slack",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 23,
+      "app_name": "Zoho Cliq",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 24,
+      "app_name": "Lark (Larksuite)",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 25,
+      "app_name": "Pumble",
+      "fields": [
+        "auth_methods",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 26,
+      "app_name": "Discord",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 28,
+      "app_name": "WhatsApp Business",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 29,
+      "app_name": "Aircall",
+      "fields": [
+        "credential_access",
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 31,
+      "app_name": "Google Ads",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 32,
+      "app_name": "Meta Ads",
+      "fields": [
+        "credential_access",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 33,
+      "app_name": "LinkedIn Ads",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 34,
+      "app_name": "GoHighLevel",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 35,
+      "app_name": "Mailchimp",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 37,
+      "app_name": "systeme.io",
+      "fields": [
+        "credential_access",
+        "api_styles",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 38,
+      "app_name": "Pinterest",
+      "fields": [
+        "credential_access",
+        "api_breadth",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 39,
+      "app_name": "Threads (Meta)",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 41,
+      "app_name": "Shopify",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 43,
+      "app_name": "BigCommerce",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 44,
+      "app_name": "Salesforce Commerce Cloud",
+      "fields": [
+        "api_styles"
+      ]
+    },
+    {
+      "app_id": 46,
+      "app_name": "Squarespace",
+      "fields": [
+        "credential_access",
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 47,
+      "app_name": "Ecwid",
+      "fields": [
+        "api_breadth",
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 48,
+      "app_name": "Gumroad",
+      "fields": [
+        "auth_methods",
+        "credential_access",
+        "api_styles",
+        "api_breadth",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 49,
+      "app_name": "Amazon Selling Partner",
+      "fields": [
+        "auth_methods",
+        "credential_access",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 50,
+      "app_name": "fanbasis",
+      "fields": [
+        "auth_methods",
+        "credential_access",
+        "api_styles",
+        "api_breadth",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 54,
+      "app_name": "MrScraper",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 55,
+      "app_name": "Apify",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 57,
+      "app_name": "Bright Data",
+      "fields": [
+        "auth_methods"
+      ]
+    },
+    {
+      "app_id": 58,
+      "app_name": "Sherlock",
+      "fields": [
+        "auth_methods",
+        "api_breadth",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 59,
+      "app_name": "Waterfall.io",
+      "fields": [
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 60,
+      "app_name": "Clay",
+      "fields": [
+        "credential_access",
+        "api_styles",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 61,
+      "app_name": "GitHub",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 62,
+      "app_name": "Vercel",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 63,
+      "app_name": "Netlify",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 64,
+      "app_name": "Cloudflare",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 65,
+      "app_name": "Supabase",
+      "fields": [
+        "credential_access",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 66,
+      "app_name": "Neo4j",
+      "fields": [
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 67,
+      "app_name": "Snowflake",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 68,
+      "app_name": "MongoDB Atlas",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 69,
+      "app_name": "Datadog",
+      "fields": [
+        "credential_access",
+        "api_styles",
+        "api_breadth",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 70,
+      "app_name": "Sentry",
+      "fields": [
+        "credential_access",
+        "mcp"
+      ]
+    },
+    {
+      "app_id": 72,
+      "app_name": "Airtable",
+      "fields": [
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 73,
+      "app_name": "Linear",
+      "fields": [
+        "credential_access",
+        "api_breadth",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 74,
+      "app_name": "Jira",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 77,
+      "app_name": "ClickUp",
+      "fields": [
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 80,
+      "app_name": "Harvest",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 81,
+      "app_name": "Stripe",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 82,
+      "app_name": "Plaid",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 83,
+      "app_name": "Binance",
+      "fields": [
+        "credential_access",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 84,
+      "app_name": "Paygent Connect",
+      "fields": [
+        "description",
+        "auth_methods",
+        "credential_access",
+        "api_styles",
+        "api_breadth",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 85,
+      "app_name": "iPayX",
+      "fields": [
+        "description",
+        "auth_methods",
+        "credential_access",
+        "api_styles",
+        "api_breadth",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 86,
+      "app_name": "QuickBooks",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 87,
+      "app_name": "Xero",
+      "fields": [
+        "api_styles",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 89,
+      "app_name": "Ramp",
+      "fields": [
+        "credential_access",
+        "api_breadth",
+        "mcp",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 90,
+      "app_name": "PitchBook",
+      "fields": [
+        "description",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 91,
+      "app_name": "NotebookLM",
+      "fields": [
+        "api_styles",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 93,
+      "app_name": "Fathom",
+      "fields": [
+        "credential_access",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 96,
+      "app_name": "Devin",
+      "fields": [
+        "credential_access"
+      ]
+    },
+    {
+      "app_id": 97,
+      "app_name": "higgsfield",
+      "fields": [
+        "credential_access",
+        "api_breadth"
+      ]
+    },
+    {
+      "app_id": 98,
+      "app_name": "Mermaid CLI",
+      "fields": [
+        "description",
+        "auth_methods",
+        "credential_access",
+        "api_styles",
+        "api_breadth",
+        "buildability"
+      ]
+    },
+    {
+      "app_id": 99,
+      "app_name": "YouTube Transcript",
+      "fields": [
+        "api_breadth"
+      ]
+    }
+  ],
+  "composio_catalog_searches": 100,
+  "automated_verification": {
+    "url_check_events": 2389,
+    "resolved_url_events": 2374,
+    "app_audits": 100,
+    "initial_failed_fields": 24,
+    "final_failed_fields": 0,
+    "corrected_apps": 21,
+    "corrected_fields": 32,
+    "browser": {
+      "complete": true,
+      "checks": 70,
+      "expected_checks": 70,
+      "apps": 10,
+      "outcomes": {
+        "load_failed": 9,
+        "not_visible": 5,
+        "supported": 52,
+        "unresolved": 4
+      }
+    }
+  },
+  "human_review": {
+    "complete": true,
+    "v1": {
+      "correct": 63,
+      "incorrect": 0,
+      "unclear": 7,
+      "reviewed": 70,
+      "accuracy": 0.9
+    },
+    "final": {
+      "correct": 61,
+      "incorrect": 2,
+      "unclear": 7,
+      "reviewed": 70,
+      "accuracy": 0.8714
+    }
+  }
+}

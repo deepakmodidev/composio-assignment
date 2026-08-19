@@ -12,7 +12,7 @@ Work autonomously through the defined checkpoints. Ask the applicant only for a 
 Non-negotiable requirements:
 
 - Use the existing OPENAI_API_KEY and COMPOSIO_API_KEY without printing or committing them.
-- Use Composio SDK with a session-backed MCP capability as a real part of source discovery.
+- Use Composio SDK with a session-backed MCP capability to inspect live Composio toolkit/tool coverage for every app. Use web search separately to discover first-party documentation.
 - Calibrate on the exact 10 pilot apps, then run the same automation on the remaining 90.
 - Do not manually author app research rows.
 - Use search only to discover sources. Every confident app claim must be supported by fetched first-party documentation. Search snippets, model memory, aggregators, blogs, and unsupported inference are not evidence.

@@ -1,2 +1,10 @@
 node_modules
 .env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+artifacts/apps/
+artifacts/attempts/
+artifacts/source_cache/
