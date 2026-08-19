@@ -2,6 +2,9 @@
 
 This repository is the runnable solution to the [assignment](doc/ASSIGNMENT.md). It researches the fixed 100-app set with an evidence-first loop, preserves the first pass, independently verifies every submitted citation, and generates a single-page case study from the resulting artifacts.
 
+- [Live case study](https://deepakmodidev.github.io/composio-assignment/)
+- [Source repository](https://github.com/deepakmodidev/composio-assignment)
+
 The agent never treats model memory or a search snippet as evidence. A factual value survives only when the pipeline fetches an allowed source, stores a supporting passage, and a fresh critic confirms that the passage supports the mapped claim. Otherwise the value becomes `unknown` or `none_found`.
 
 ## What the agent does
@@ -112,4 +115,4 @@ Then open `http://localhost:8000`. The HTML has no frontend build step; network 
 - JavaScript-heavy, bot-protected, or login-gated documentation can defeat both HTTP and browser retrieval. Those fields remain visible as unknowns.
 - Public documentation can establish a gate but cannot test paid credentials for the 100 apps.
 - Community MCP discovery cannot prove that no unpublished implementation exists.
-- Repository and live deployment links are added only after real Git/hosting authorization is available; this repository never fabricates them.
+- Paid credentials were not used to execute actions against the researched apps; the study evaluates their documented integration paths.
